@@ -5,8 +5,6 @@
   right: 0;
   bottom: 0;
   background-color: rgba (0, 0, 0, 0.6);
-  display: -webkit-box;
-  display: -ms-flexbox;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -16,5 +14,7 @@
   display: none;
 }
 .popup_opened {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
