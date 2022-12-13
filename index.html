@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script src="./scripts/index.js" defer></script>
+    <title>Документ</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <img class="header__logo" src="/images/Vector.svg" alt="Место" />
+    </header>
+    <section class="profile">
+      <div class="profile__header">
+        <img
+          class="profile__avatar"
+          src="./images/Kusto.jpg"
+          alt="Жак-Ив Кусто"
+        />
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button
+            class="profile__edit-button profile__edit-button_about"
+          ></button>
+          <p class="profile__text">Исследователь океана</p>
+        </div>
+      </div>
+      <button class="profile__add-button">
+        <img class="profile__text-button" src="./images/plus.svg" alt="Плюс" />
+      </button>
+    </section>
+    <section class="cards">
+      <ul class="elements">
+        <li class="element">
+          <img
+            src="./images/Karachaevsk.jpg"
+            alt="Замок"
+            class="cards__element"
+          />
+          <div class="cards__info">
+            <h2 class="cards__header">Карачаевск</h2>
+            <img class="cards__like" src="./images/heart.svg" alt="Cердце" />
+          </div>
+        </li>
+        <li class="element">
+          <img src="./images/Elbrus.jpg" alt="Равнина" class="cards__element" />
+          <div class="cards__info">
+            <h2 class="cards__header">Гора Эльбрус</h2>
+            <img class="cards__like" src="./images/heart.svg" alt="Cердце" />
+          </div>
+        </li>
+        <li class="element">
+          <img src="./images/Dombai.jpg" alt="Гора" class="cards__element" />
+          <div class="cards__info">
+            <h2 class="cards__header">Домбай</h2>
+            <img class="cards__like" src="./images/heart.svg" alt="Cердце" />
+          </div>
+        </li>
+        <li class="element">
+          <img src="./images/Elbrus.jpg" alt="Равнина" class="cards__element" />
+          <div class="cards__info">
+            <h2 class="cards__header">Гора Эльбрус</h2>
+            <img class="cards__like" src="./images/heart.svg" alt="Cердце" />
+          </div>
+        </li>
+        <li class="element">
+          <img src="./images/Dombai.jpg" alt="Гора" class="cards__element" />
+          <div class="cards__info">
+            <h2 class="cards__header">Домбай</h2>
+            <img class="cards__like" src="./images/heart.svg" alt="Cердце" />
+          </div>
+        </li>
+        <li class="element">
+          <img
+            src="./images/Karachaevsk.jpg"
+            alt="Замок"
+            class="cards__element"
+          />
+          <div class="cards__info">
+            <h2 class="cards__header">Карачаево-Черкессия</h2>
+            <img class="cards__like" src="./images/heart.svg" alt="Cердце" />
+          </div>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">
+      <p class="footer__author">&copy; 2022 Ксения Абдулова</p>
+    </footer>
+    <div class="popup popup_about">
+      <div class="popup__content">
+        <button class="popup__close-button popup__close-button_about"></button>
+        <h1 class="popup__header">Редактировать профиль</h1>
+        <form class="popup__form">
+          <fieldset class="popup__contact">
+            <input
+              class="popup__input popup__input_userName"
+              type="text"
+              id="name"
+              value="Жак-Ив Кусто"
+            />
+          </fieldset>
+          <fieldset class="popup__contact">
+            <input
+              class="popup__input popup__input_userJob"
+              type="text"
+              id="info"
+              value="Исследователь океана"
+            />
+          </fieldset>
+          <button
+            class="popup__save-button popup__save-button_change"
+            type="submit"
+          >
+            Сохранить
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
