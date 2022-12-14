@@ -6,7 +6,6 @@
   height: 32px;
   border: none;
   background-color: transparent;
-  cursor: auto;
   background-image: url(../../../images/CloseIcon.svg);
   cursor: pointer;
 }
