@@ -1,17 +1,13 @@
 .profile__info {
   max-width: 340px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
 }
 @media (max-width: 320px) {
   .profile__info {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-bottom: 36px;
+    margin: auto;
+    max-width: 282px;
   }
 }

@@ -1,8 +1,15 @@
 .cards__like {
-  max-width: 22px;
-  max-height: 19px;
-  padding-top: 4px;
-  text-align: left;
+  width: 22px;
+  height: 19px;
+  padding: 0;
+  border: none;
+  background-image: url(../../../images/heart.svg);
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
 }
 .cards__like:hover {
   opacity: 0.6;

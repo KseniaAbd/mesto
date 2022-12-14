@@ -18,8 +18,10 @@
 }
 @media (max-width: 320px) {
   .profile__text {
+    text-align: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    padding: 8px 0 34px 32px;
   }
 }

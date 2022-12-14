@@ -1,10 +1,11 @@
 .popup {
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba (0, 0, 0, 0.6);
+  background-color: rgb(0, 0, 0, 0.6);
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -12,9 +13,4 @@
   -ms-flex-align: start;
   align-items: flex-start;
   display: none;
-}
-.popup_opened {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
