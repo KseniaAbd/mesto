@@ -1,8 +1,9 @@
 .cards__element {
-  max-width: 282px;
+  width: 282px;
+  height: 282px;
   border-radius: 10px 10px 0 0;
-  -o-object-fit: contain;
-  object-fit: contain;
+  -o-object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
   object-position: center;
 }

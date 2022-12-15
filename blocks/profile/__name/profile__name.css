@@ -11,13 +11,8 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
 @media (max-width: 768px) {
-  .profile__name {
-    font-size: 30px;
-    line-height: 36px;
-  }
-}
-@media (max-width: 320px) {
   .profile__name {
     font-size: 27px;
     line-height: 33px;
