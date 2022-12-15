@@ -1,6 +1,5 @@
 .profile__info {
   max-width: 340px;
-  width: 100%;
   display: -ms-grid;
   display: grid;
   grid-template-columns: 7fr 1fr;
